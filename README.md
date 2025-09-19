@@ -1,17 +1,97 @@
-# Educational-Organisation-Using-ServiceNow
+# 🎓 Educational Management System (EMS) - ServiceNow Project
 
-Here You will find all the document files related to the "Educational Organisation Using Servicenow" Project.
+## 📌 Overview
+The **Educational Management System (EMS)** is a streamlined solution built on the **ServiceNow** platform to enhance administrative efficiency within educational institutions. It manages student and teacher data, simplifies the admission process, and provides tools for tracking academic progress.
 
-Team ID: LTVIP2025TMID30156
+By implementing EMS in ServiceNow, institutions benefit from a **user-friendly, customizable, and automated environment** that supports better decision-making and operational management.
 
-Team Size: 3
+---
 
-Team Leader: Akula Tharun Naga Durga Prasad
+## 🛠 Features
 
-Team Member: Yelisetti Navya Sahithi Malitha
+### 🔖 Custom Tables
+- **Salesforce** (for student data)  
+- **Admission** (extends Salesforce)  
+- **Student Progress**
 
-Team Member: Geddam Govind
+### ⚙ Process Flow
+**Stages:** Joined → Rejected → Rejoined → Closed → Cancelled
 
-ServiceNow Instance: https://dev276138.service-now.com/now/nav/ui/classic/params/target/ui_page.do%3Fsys_id%3Dcead763c83062210c7d659c6feaad3ef
+### 🧠 Client Scripts
+- Auto-fill student data on selection  
+- Pincode-based location updates  
+- Disable fields to prevent manual entry  
+- Auto-calculation of total marks  
 
-Video Demo Link: 
+### 📋 Dynamic Form Design
+- 🔢 **Admin Number Generation** using Number Maintenance  
+- 📊 **Results Tracking** for student progress  
+- 📧 **Email Notifications & Workflows**  
+
+---
+
+## 🚀 How to Set Up the Project
+
+### 🧾 1. Request a Personal Developer Instance
+1. Go to: [developer.servicenow.com](https://developer.servicenow.com)  
+2. Create an account and request a new instance  
+
+### 📥 2. Import Update Set
+1. Navigate to **System Update Sets → Retrieved Update Sets**  
+2. Click **Import Update Set from XML**  
+3. Upload: `Dileep_Educational_Organization.xml`  
+4. Preview and Commit it  
+
+### 🧪 3. Explore the App
+- View custom tables: Salesforce, Admission, Student Progress  
+- Open forms and submit sample entries  
+- Observe automated workflows and client scripts in action  
+
+---
+
+## 📸 Screenshots
+*(actual images in `/screenshots` folder)*
+
+---
+
+## ✅ Results
+- Centralized management of student and admission data  
+- Automated workflows for error-free operations  
+- Dynamic forms enhance data entry and validation  
+- Seamless tracking of academic progress and admission stages  
+
+---
+
+## 👍 Advantages
+- Cloud-accessible from anywhere  
+- Automation improves efficiency and accuracy  
+- Highly customizable for different institutions  
+- Role-based access ensures data security  
+
+---
+
+## ⚠ Disadvantages
+- Requires some knowledge of ServiceNow platform  
+- Complex customizations may take time  
+- Licensing may apply for enterprise deployment  
+
+---
+
+## 🔮 Future Scope
+- Integration with BI tools like Tableau or Power BI  
+- Teacher performance tracking and scheduling  
+- Mobile app support using ServiceNow Mobile Studio  
+- API integration with external databases  
+
+---
+
+## 👨‍💻 Author
+**Akula Tharun**  
+Final Year IT Student  
+ServiceNow Certified Administrator & Developer  
+[LinkedIn Profile](https://www.linkedin.com/in/tharun-4a4200276/)  
+
+---
+
+## 🏷 Tags
+`ServiceNow` `Update Set` `Educational System` `Automation` `Client Scripts` `Workflow` `Student Management`
